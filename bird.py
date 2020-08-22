@@ -4,7 +4,7 @@ class Bird(pygame.Rect):
     def __init__(self, jump_key, *args, **kwargs):
 
         self.angle = 0
-        self.max_speed = 15
+        self.max_speed = 14
         self.speed = self.max_speed
         self.jump_key = jump_key
         super().__init__(*args, **kwargs)
